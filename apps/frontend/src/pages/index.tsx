@@ -6,7 +6,7 @@ import Logos from "@components/Logos";
 import SEO from "@components/SEO";
 
 const Home = () => {
-  const pageTitle = `FreelaMed | Whitelist`;
+  const pageTitle = `FreelaMed | Entre na lista de instrumentadores.`;
   return (
     <div className="main-content-container">
       <SEO
