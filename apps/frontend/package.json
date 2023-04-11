@@ -1,7 +1,18 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "pathway",
+  "version": "0.2.0",
+  "description": "Freelamed - Conectando instrumentadores as melhores cirurgias",
+  "main": "index.tsx",
   "private": true,
+  "keywords": [
+    "next",
+    "nextjs",
+    "react",
+    "reactjs",
+    "npx",
+    "tailwindcss",
+    "tailwind"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
