@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <SEO 
-        title ={process.env.siteTitle}
+        title ={"freelamed"}
       />
       <Component {...pageProps} />
     </Layout>
