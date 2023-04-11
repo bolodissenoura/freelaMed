@@ -84,7 +84,7 @@ const Footer = () => {
                         </div> */}
                     </div>
                     <div className="footer-credits text-black/60">
-                        <p>© {year}. All rights reserved. <span className="font-semibold">Freelamed by <Link className="hover:text-primary-500 transition-colors duration-300" href="https://cjluntok.com" target="_blank">@daniellimae</Link></span></p>
+                        <p>© {year}. All rights reserved. <span className="font-semibold">Freelamed by <Link className="hover:text-primary-500 transition-colors duration-300" href="hhttps://www.linkedin.com/in/daniel-limae-b53090200/" target="_blank">@daniellimae</Link></span></p>
                     </div>
                 </div>
             </section>
