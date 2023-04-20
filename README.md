@@ -15,7 +15,6 @@ FreelaMed Company Monorepo
 
 ---
 ## 📍 Table of Contents
-- [📍 Table of Contents](#-table-of-contents)
 - [👋 Introdcution](#-introdcution)
 - [🏎💨 Getting Started](#-getting-started)
   - [✅ Prerequisites](#-prerequisites)
