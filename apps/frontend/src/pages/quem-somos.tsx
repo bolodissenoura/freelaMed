@@ -1,4 +1,4 @@
-import Hero from "@components/Hero";
+import SectionImage from "@components/Section/SectionImage";
 
 const QuemSomos = () => {
   return (
@@ -7,7 +7,7 @@ const QuemSomos = () => {
         <p className="p-8">
           Somos uma empresa inovadora que conecta instrumentadores cirúrgicos
           altamente qualificados com hospitais e empresas que precisam de
-          serviços cirúrgicos especializados. 
+          serviços cirúrgicos especializados.
         </p>
         <p className="p-8">
           Nossa solução agiliza o processo de contratação e garante a presença
