@@ -1,73 +1,119 @@
-# Turborepo starter
 
-This is an official Yarn v1 starter turborepo.
+<div align="center">
+<h1 align="center">
+<img src="https://freela-med-frontend.vercel.app/icons/logo.svg" width="100" />
+<br>
+FreelaMed Company Monorepo
+</h1>
+<h3 align="center">📍 Connecting surgical instrument handlers to surgical procedures. </h3>
+<h3 align="center">🚀 Developed using Turborepo - Back and Frontend.</h3>
+<p align="center">
 
-## What's inside?
+></p>
 
-This turborepo uses [Yarn](https://classic.yarnpkg.com/) as a package manager. It includes the following packages/apps:
+</div>
 
-### Apps and Packages
+---
+## 📍 Table of Contents
+- [📍 Table of Contents](#-table-of-contents)
+- [👋 Introdcution](#-introdcution)
+- [🏎💨 Getting Started](#-getting-started)
+  - [✅ Prerequisites](#-prerequisites)
+  - [💻 Installation](#-installation)
+- [🗺 Roadmap](#-roadmap)
+- [🤝 Contributing](#-contributing)
+- [🪪 License](#-license)
+- [📫 Contact](#-contact)
+- [🙏 Acknowledgments](#-acknowledgments)
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+---
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+## 👋 Introdcution
 
-### Utilities
+This monorepo serves as a central repository for all the project's code, documentation, and resources. It provides a collaborative platform for the project team to work together, share ideas, and contribute to the development of this critical project.
 
-This turborepo has some additional tools already setup for you:
+<hr />
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+## 🏎💨 Getting Started
 
-### Build
+### ✅ Prerequisites
 
-To build all apps and packages, run the following command:
+Before you begin, ensure that you have the following prerequisites installed:
+> `[📌  node 16.x]`
 
+### 💻 Installation
+
+1. Clone the freelaMed repository:
+```sh
+git clone https://github.com/bolodissenoura/freelaMed
 ```
-cd my-turborepo
-yarn run build
+
+2. Change to the project directory:
+```sh
+cd mlops-course
 ```
 
-### Develop
-
-To develop all apps and packages, run the following command:
-
+3. Install the dependencies:
+```sh
+yarn install
 ```
-cd my-turborepo
+
+### 🤖 Running freelaMed
+
+```bash
 yarn run dev
 ```
 
-### Remote Caching
+<hr />
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+## 🗺 Roadmap
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+- [X] [📌  LANDING-PAGE]
+- [ ] [📌  HOSPITAL-API-MVP]
+- [ ] [📌  INSTRUMENTERS-API-MVP]
+- [ ] [📌  FREELAMED-MVP]
 
+
+---
+
+## 🤝 Contributing
+Contributions are always welcome! Please follow these steps:
+1. Fork the project repository. This creates a copy of the project on your account that you can modify without affecting the original project.
+2. Clone the forked repository to your local machine using a Git client like Git or GitHub Desktop.
+3. Create a new branch with a descriptive name (e.g., `new-feature-branch` or `bugfix-issue-123`).
+```sh
+git checkout -b new-feature-branch
 ```
-cd my-turborepo
-npx turbo login
+4. Make changes to the project's codebase.
+5. Commit your changes to your local branch with a clear commit message that explains the changes you've made.
+```sh
+git commit -m 'Implemented new feature.'
 ```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
-
+6. Push your changes to your forked repository on GitHub using the following command
+```sh
+git push origin new-feature-branch
 ```
-npx turbo link
-```
+7. Create a pull request to the original repository.
+Open a new pull request to the original project repository. In the pull request, describe the changes you've made and why they're necessary. 
+The project maintainers will review your changes and provide feedback or merge them into the main branch.
 
-## Useful Links
+---
 
-Learn more about the power of Turborepo:
+## 🪪 License
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+This project is licensed under the `[📌  INSERT-LICENSE-TYPE]` License. See the [LICENSE](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) file for additional info.
+
+---
+
+## 📫 Contact
+
+If you have any questions or concerns, please open an issue on GitHub or contact the repo owner at twitter `[📌  @daniellimae]`
+
+---
+
+## 🙏 Acknowledgments
+> `[📌  DortMed Company to Sponsoring and all demo instrumeters]`
+
+
+---
+
