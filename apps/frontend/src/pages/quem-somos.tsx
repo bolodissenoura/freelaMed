@@ -1,5 +1,4 @@
-import SectionImage from "@components/Section/SectionImage";
-
+import React from "react";
 const QuemSomos = () => {
   return (
     <>
