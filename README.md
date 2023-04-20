@@ -20,8 +20,6 @@ FreelaMed Company Monorepo
 - [🏎💨 Getting Started](#-getting-started)
   - [✅ Prerequisites](#-prerequisites)
   - [💻 Installation](#-installation)
-  - [🤖 Running mlops-course](#-running-mlops-course)
-  - [🧪 Running Tests](#-running-tests)
 - [🗺 Roadmap](#-roadmap)
 - [🤝 Contributing](#-contributing)
 - [🪪 License](#-license)
@@ -33,13 +31,6 @@ FreelaMed Company Monorepo
 ## 👋 Introdcution
 
 This monorepo serves as a central repository for all the project's code, documentation, and resources. It provides a collaborative platform for the project team to work together, share ideas, and contribute to the development of this critical project.
-
-
----
-
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-github-open.svg" width="80" />
-
----
 
 <hr />
 
@@ -67,9 +58,9 @@ cd mlops-course
 yarn install
 ```
 
-### 🤖 Running mlops-course
+### 🤖 Running freelaMed
 
-```sh
+```bash
 yarn run dev
 ```
 
