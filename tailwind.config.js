@@ -11,7 +11,7 @@ module.exports = {
         hero: "url('/public/hero.jpg')",
       },
       fontFamily: {
-        primary: ["Inter"],
+        primary: ["Mona-Sans"],
         secondary: ['"Open Sans"'],
       },
       colors: {

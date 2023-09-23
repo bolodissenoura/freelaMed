@@ -24,7 +24,7 @@ const SubscribeForm = ( {alignment}:SubscribeFormProps ) => {
                     <input 
                         className="form-input placeholder-black/60 bg-transparent w-full pl-8 focus-visible:border-0 focus-visible:outline-none" 
                         id="email"
-                        placeholder="johndoe@email.com"
+                        placeholder="Digite seu email"
                         type="email"
                         required
                         onChange={(e) => setEmail(e.target.value)}

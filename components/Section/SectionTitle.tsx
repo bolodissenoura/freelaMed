@@ -20,7 +20,7 @@ const SectionTitle = ({title, subheading, isBigHeader, icon}:SectionTitleProps )
             {
                 subheading?.length && (<span className="block subheading mb-6">{ subheading }</span>)
             }
-            <h2 className={`font-semibold text-h2 ${ isBigHeader ? 'md:text-h1' : 'md:text-section-title' }`}>{title}</h2>
+            <h2 className={`font-bold text-h2 ${ isBigHeader ? 'md:text-h1' : 'md:text-section-title' }`}>{title}</h2>
         </section>
     )
 }

@@ -23,10 +23,10 @@ const Hero = () => {
             <BadgeIcon icon="maki:doctor" />
           </BadgeGroup>
           <SectionContent
-            title="Conectando Instrumentadores às Cirurgias com Excelência"
+            title="Conectando instrumentadores às cirurgias com excelência"
             alignment={alignment}
             isBigHeader={true}>
-            <p>
+            <p className="text-primary-500">
               Cadastre-se na Freelamed agora e faça parte da revolução cirúrgica
             </p>
           </SectionContent>
