@@ -14,8 +14,8 @@ const Home = () => {
         description="Encontre o instrumentador de cirurgia certo para o seu hospital com nossa plataforma de conexão"
       />
       <Hero />
-      <Logos />
-      <Highlight />
+      {/* <Logos /> */}
+      {/* <Highlight /> */}
       <Feature />
       <CTA />
     </div>

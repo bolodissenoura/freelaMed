@@ -23,7 +23,7 @@ const Header = () => {
           </h1>
         </div>
         <Nav />
-        <div className="button-container hidden md:flex flex-wrap gap-4 ml-auto">
+        {/* <div className="button-container hidden md:flex flex-wrap gap-4 ml-auto">
           <Button
             text="Sign Up"
             link="/sign-up"
@@ -34,7 +34,7 @@ const Header = () => {
             link="/login"
             variant={ButtonVariant.secondary}
           />
-        </div>
+        </div> */}
       </div>
     </header>
   );

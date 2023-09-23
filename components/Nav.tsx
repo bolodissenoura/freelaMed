@@ -4,9 +4,7 @@ import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
 
 const navigation = [
-  { name: "Para empresa", href: "/para-empresa" },
-  { name: "Para instrumentador", href: "/para-instrumentador" },
-  { name: "Quem somos - freelamed", href: "/quem-somos" },
+  { name: "Freelamed", href: "/#" },
 ];
 
 const Nav = () => {

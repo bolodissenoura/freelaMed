@@ -7,6 +7,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: {
+        hero: "url('/public/hero.jpg')",
+      },
       fontFamily: {
         primary: ["Inter"],
         secondary: ['"Open Sans"'],

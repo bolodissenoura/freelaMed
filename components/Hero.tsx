@@ -10,35 +10,36 @@ const Hero = () => {
   const alignment = "center";
 
   return (
-    <section className="hero-container">
-      <div className="hero-content-container py-16 ">
-        <BadgeGroup alignment={alignment}>
-          <BadgeContext>
-            <span>pre-acesso</span>
-          </BadgeContext>
-          <BadgeMessage>boas-vindas ao freelamed!</BadgeMessage>
-          <BadgeIcon icon="tabler:leaf" />
-        </BadgeGroup>
-        <SectionContent
-          title="Conectando instrumentadores aos procedimentos cirúrgicos."
-          alignment={alignment}
-          isBigHeader={true}>
-          <p>otimize seus resultados agora mesmo - cadastre-se!</p>
-        </SectionContent>
-        <ButtonGroup className="wrap-sm wrap-px" alignment={alignment}>
-          <Button
-            text="Sou instrumentador"
-            link="/quem-somos"
-            icon="ph:arrow-right-bold"
-            variant={ButtonVariant.primary}
-          />
-          <Button
-            text="Sou empresa"
-            link="/contact"
-            variant={ButtonVariant.secondary}
-          />
-        </ButtonGroup>
-      </div>
+    <section
+      className="hero-container"
+      style={{ backgroundImage: "url(hero.jpg)" }}>
+      <section
+        className="hero-container"
+        style={{ backgroundColor: "rgba(255, 255, 255, 0.8)" }}>
+        <div className="hero-content-container py-16 ">
+          <BadgeGroup alignment={alignment}>
+            <BadgeContext>Oportunidade limitada</BadgeContext>
+            Freelamed
+            <BadgeIcon icon="maki:doctor" />
+          </BadgeGroup>
+          <SectionContent
+            title="Conectando Instrumentadores às Cirurgias com Excelência"
+            alignment={alignment}
+            isBigHeader={true}>
+            <p>
+              Cadastre-se na Freelamed agora e faça parte da revolução cirúrgica
+            </p>
+          </SectionContent>
+          <ButtonGroup className="wrap-sm wrap-px" alignment={alignment}>
+            <Button
+              text="Fazer parte"
+              link="/quem-somos"
+              icon="ph:arrow-right-bold"
+              variant={ButtonVariant.primary}
+            />
+          </ButtonGroup>
+        </div>
+      </section>
     </section>
   );
 };

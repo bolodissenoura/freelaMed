@@ -2,25 +2,25 @@ import FeatureContent from "@components/Feature/FeatureContent";
 
 const DATA = [
   {
-    title: "Para Instrumentador",
+    title: "Para instrumentadores",
     content: `Tenha acesso a diversas cirurgias que encaixem na sua agenda.`,
-    icon: "ph:lightning",
+    icon: "carbon:scalpel",
     link: "/pricing",
-    linkTitle: "Em breve",
+    linkTitle: "",
   },
   {
-    title: "Acesso para Empresas",
-    content: `Tenha acesso aos melhores profissionais no seu tempo.`,
+    title: "Para hospitais",
+    content: `A Freelamed oferece acesso imediato a instrumentadores cirúrgicos altamente qualificados para resolver emergências de falta de última hora.`,
     icon: "lucide:mouse-pointer",
     link: "/get-started",
-    linkTitle: "Em breve",
+    linkTitle: "",
   },
   {
-    title: "Faça parte do nosso grupo",
-    content: `Duis malesuada faucibus est. Ut pulvinar gravida sapien sed efficitur.`,
-    icon: "ph:lightning",
+    title: "Poucas vagas",
+    content: `Na Freelamed, somos mais do que uma simples conexão. Por isso, nessa fase inicial contaremos com um número reduzido de profissionais.`,
+    icon: "ri:hourglass-fill",
     link: "/quem-somos",
-    linkTitle: "Em breve",
+    linkTitle: "",
   },
 ];
 
