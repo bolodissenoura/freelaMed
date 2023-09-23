@@ -3,9 +3,7 @@ import Link from "next/link";
 import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
 
-const navigation = [
-  { name: "Freelamed", href: "/#" },
-];
+const navigation = [{ name: "Freelamed", href: "/#" }];
 
 const Nav = () => {
   const router = useRouter();
@@ -40,16 +38,14 @@ const Nav = () => {
                   passHref
                   key={item.name}
                   href={item.href}
-                  className={` block py-2 pl-3 pr-4 transition-colors duration-300 rounded md:bg-transparent md:text-black md:hover:text-primary-500 md:p-0
+                  className={`block py-2 pl-3 pr-4 transition-colors duration-300 rounded md:bg-transparent md:text-black md:hover:text-primary-500 md:p-0
                     ${
                       router.pathname === item.href
                         ? "text-white bg-primary-700 "
                         : "text-black"
                     }
                   `}
-                  onClick={closeNav}>
-                  {item.name}
-                </Link>
+                  onClick={closeNav}></Link>
               </li>
             ))}
           </ul>

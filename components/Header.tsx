@@ -11,7 +11,7 @@ const Header = () => {
           <h1>
             <Link href="/" className="logo">
               <Image
-                src="/icons/logo.svg"
+                src="/icons/freelamed-logo-dark.png"
                 alt="logo"
                 className="h-6 w-auto"
                 height="25"
@@ -19,7 +19,6 @@ const Header = () => {
                 priority
               />
             </Link>
-            <span className="hidden">Freelamed Logo</span>
           </h1>
         </div>
         <Nav />

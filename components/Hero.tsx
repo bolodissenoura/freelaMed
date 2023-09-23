@@ -1,11 +1,6 @@
-import SectionContent from "@components/Section/SectionContent";
 import ButtonGroup from "@components/ButtonGroup";
-import SectionImage from "@components/Section/SectionImage";
-import BadgeGroup from "@components/BadgeGroup";
 import Button, { ButtonVariant } from "@components/Button/Button";
-import BadgeContext from "@components/Badge/BadgeContext";
-import BadgeMessage from "@components/Badge/BadgeMessage";
-import BadgeIcon from "@components/Badge/BadgeIcon";
+
 const Hero = () => {
   const alignment = "center";
 
@@ -17,27 +12,25 @@ const Hero = () => {
         className="hero-container"
         style={{ backgroundColor: "rgba(255, 255, 255, 0.8)" }}>
         <div className="hero-content-container py-16 ">
-          <BadgeGroup alignment={alignment}>
-            <BadgeContext>Oportunidade limitada</BadgeContext>
-            Freelamed
-            <BadgeIcon icon="maki:doctor" />
-          </BadgeGroup>
-          <SectionContent
-            title="Conectando instrumentadores às cirurgias com excelência"
-            alignment={alignment}
-            isBigHeader={true}>
-            <p className="text-primary-500">
-              Cadastre-se na Freelamed agora e faça parte da revolução cirúrgica
-            </p>
-          </SectionContent>
+          <h1 className="mx-auto mb-6 max-w-[844px] text-4xl font-extrabold md:text-center md:text-5xl">
+            Conectando instrumentadores às cirurgias com excelência
+          </h1>
+          <p className="mx-auto mb-16 max-w-[844px] text-lg text-zinc-700 md:mb-10 md:text-center">
+            A <strong>FreelaMed</strong> é uma plataforma de cadastro gratuito,
+            criada com o objetivo de conectar instrumentadores cirúrgicos a
+            hospitais de forma eficiente e prática.
+          </p>
           <ButtonGroup className="wrap-sm wrap-px" alignment={alignment}>
             <Button
               text="Fazer parte"
               link="/quem-somos"
-              icon="ph:arrow-right-bold"
+              icon="carbon:scalpel"
               variant={ButtonVariant.primary}
             />
           </ButtonGroup>
+          <div className="mx-auto my-8 w-fit rounded-full bg-zinc-900 px-4 py-1 text-center text-[10px] font-semibold text-white md:text-xs">
+            ✨ Seja um dos 500 primeiros instrumentadores e ganhe prioridade!
+          </div>
         </div>
       </section>
     </section>
