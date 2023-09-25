@@ -1,8 +1,6 @@
 import Hero from "@components/Hero";
-import Highlight from "@components/Highlight";
 import Feature from "@components/Feature";
 import CTA from "@components/CallToAction";
-import Logos from "@components/Logos";
 import SEO from "@components/SEO";
 
 const Home = () => {

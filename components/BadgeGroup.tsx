@@ -39,7 +39,7 @@ const BadgeGroup = ({
       }`}>
       <Element
         href={link && link}
-        className={`font-medium text-badgeText badge-group px-4 w-auto rounded-full bg-zinc-900 text-white inline-flex items-center gap-3 mb-4 ${
+        className={`font-medium  badge-group px-4 w-auto rounded-full bg-zinc-900 text-white inline-flex items-center gap-3 mb-4 ${
           link && "hover:bg-secondary-200 transition-colors duration-300"
         }`}>
         {children}
