@@ -4,6 +4,7 @@ import CTA from "@components/CallToAction";
 import SEO from "@components/SEO";
 import ImageSection from "@components/ImageSection";
 import ImageSectionMockup from "@components/ImageSectionMockup";
+import ImageSectionPix from "@components/ImageSectionPix";
 
 const Home = () => {
   const pageTitle = `FreelaMed | Entre na lista de instrumentadores.`;
@@ -14,6 +15,7 @@ const Home = () => {
         description="Encontre o instrumentador de cirurgia certo para o seu hospital com nossa plataforma de conexão"
       />
       <Hero />
+      <ImageSectionPix />
       <ImageSection />
       <Feature />
       <ImageSectionMockup />
