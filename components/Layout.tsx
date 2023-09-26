@@ -1,4 +1,5 @@
 import Header from "@components/Header";
+import Footer from "./Footer";
 const Layout = ({ children }) => {
   return (
     <div className="overflow-x-hidden min-h-screen">
@@ -6,6 +7,7 @@ const Layout = ({ children }) => {
       <main id="main" className="main-container">
         {children}
       </main>
+      <Footer />
     </div>
   );
 };
