@@ -2,6 +2,8 @@ import Hero from "@components/Hero";
 import Feature from "@components/Feature";
 import CTA from "@components/CallToAction";
 import SEO from "@components/SEO";
+import ImageSection from "@components/ImageSection";
+import ImageSectionMockup from "@components/ImageSectionMockup";
 
 const Home = () => {
   const pageTitle = `FreelaMed | Entre na lista de instrumentadores.`;
@@ -12,12 +14,12 @@ const Home = () => {
         description="Encontre o instrumentador de cirurgia certo para o seu hospital com nossa plataforma de conexão"
       />
       <Hero />
-      {/* <Logos /> */}
-      {/* <Highlight /> */}
+      <ImageSection />
       <Feature />
+      <ImageSectionMockup />
       <CTA />
     </div>
   );
 };
-
+// 00020126330014BR.GOV.BCB.PIX011151514514800520400005303986540510.005802BR5907danizin6007jacapau62110507asasasa63048A6A
 export default Home;
