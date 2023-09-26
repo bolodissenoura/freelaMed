@@ -34,7 +34,7 @@ const SubscribeForm = ( {alignment}:SubscribeFormProps ) => {
                     </div>
                 </div>
                 <div className="form-input w-full md:w-auto">
-                    <Button text="Submit" link="/" type="button" variant={ ButtonVariant.primary }/>
+                    <Button text="Enviar" link="/" type="button" variant={ ButtonVariant.primary }/>
                 </div>
             </form>
         </div>
